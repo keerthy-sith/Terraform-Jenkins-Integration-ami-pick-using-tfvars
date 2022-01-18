@@ -6,7 +6,7 @@ variable "instance_type" {
 variable "ec2_ami" {
   description = "AMI ID"
   type        = string
-  default     = ""
+  default     = "ami-0d43d465e2051057f"
 }
 variable "instance_name"{
   type        = string
